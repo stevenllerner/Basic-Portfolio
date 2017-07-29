@@ -1,27 +1,154 @@
 body {
 	background-image: url("../../assets/images/ep_naturalwhite.png");
+	font-family: arial, "helvetica neue", helvetica, sans-serif;
+	color: #777777;
 }
 
 h1, h2, h3, h4 {
 	font-family: "Georgia", Times, Times New Roman, serif;
+
 }
 
 #header {
-	background-color: "#ffffff";
+	background-color: #ffffff;
+	height: 90px;
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+	padding-right: 100px;
 }
 
 h1 {
-	font-size: 24px;
-	color: "#ffffff";
+	font-size: 30px;
+	color: #ffffff;
 	font-weight: bold;
 	background-color: #4aaaa5;
-	width: 15%;
+	width: 20%;
 	text-align: center;
-	padding: 10px 5px;
+	padding: 30px 5px;
 	float: left;
-	margin-left: 10%
+	margin-left: 100px;
 }
 
-a {
+.a-header {
+	text-decoration: none;
+	font-size: 20px;
+	color: #777777;
+	margin: 35px 10px;
+	padding: 0px 0px;
+	float: right;	
+}
+
+#a-middle {
+	padding: 0px 20px;
+	border-left: solid;
+	border-left-width: 	2px;
+	border-right: solid;
+	border-right-width: 2px;
+}
+
+#sll {
+	width: 200px;
+	float: left;
+	margin: 0px 20px 20px 0px;
+}
+
+article {
+	float: left;
+	background-color: #ffffff;
+	margin-left: 100px;
+	padding: 30px;
+	width: 60%
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #4aaaa5;
+	padding: 5px 0px 30px 0px;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+}
+
+p {
+	font: 20px;
+	line-height: 1.5em;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #4aaaa5;
+	padding: 5px 0px 30px 0px;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+	margin-bottom: 20px;
+}
+
+nav {
+	float: right;
+	background-color: #ffffff;
+	margin-right: 100px;
+	padding: 30px;
+	width: 15%;
 	float: right;
 }
+
+#buttonG {
+	width: 30%;
+	height: 30%;
+	float: top;
+}
+
+#buttonL {
+	width: 33%;
+	height: 33%;
+	float: top;
+}
+
+#buttonS {
+	width: 30%;
+	height: 30%;
+	float: top;
+}
+
+body {
+	height: 100%
+}
+
+footer {
+	background-color: #666666;
+	height: 90px;
+	margin-top: 48%;
+	border-top: solid;
+	border-width: 4px;
+	border-color: #4aaaa5;
+}
+
+#copyR {
+	font-size: 10px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 40px;	
+}
+
+.my-form {
+	padding: 20px;
+}
+
+.my-form .form-group {
+	padding-bottom: 15px;  
+}
+
+.my-display label {
+	display: block;
+}
+
+.my-form input {
+	padding: 8px;
+	width: 100%
+}
+
+

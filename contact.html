@@ -2,44 +2,49 @@
 <html>
 <head>
 	<html lang="en-US">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title>Steve Lerner</title>
 </head>
 
 <body>
-	<header>
+	<div id="header">
 		<h1>Steve Lerner</h1>
-		<a href="index.html">About</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact</a>
-	</header>
+		<a class="a-header" href="contact.html">Contact</a>
+		<a class="a-header" id="a-middle"; href="portfolio.html">Portfolio</a>
+		<a class="a-header" href="index.html">About</a>		
+	</div>
+
+	<br>
 
 	<article>
 		<h2>Contact</h2>
 
 		<!-- <form action="process.php" method="POST">
 		-->	
-			<div>
+		<form class="my-form">
+			<div class="form-group">
 				<label>Name</label>
 				<input type="text" name="Name" placeholder = "John Smith">
 			<div>
 
-			<div>
+			<div class="form-group">
 				<label>Email</label>
 				<input type="email" name="Email" placeholder = "example@gmail.com">
 			<div>
 
-			<div>
+			<div class="form-group">
 				<label>First Name</label>
 				<input type="text" name="firstName">
 			<div>			
 			
-			<div>
+			<div class="fomr-group">
 				<label>Message</label>
 				<textarea name="message"></textarea>
 			<div>
 			<div>
 				<!-- To produce an input or submit button use the below -->
-			<input type="submit" name="submit" value="submit">
+			<input class="button" type="submit" name="submit" value="submit">
 			</div>
 		</form>
 
