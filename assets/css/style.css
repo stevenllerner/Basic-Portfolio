@@ -2,6 +2,7 @@ body {
 	background-image: url("../../assets/images/ep_naturalwhite.png");
 	font-family: arial, "helvetica neue", helvetica, sans-serif;
 	color: #777777;
+	height: 100%;
 }
 
 h1, h2, h3, h4 {
@@ -114,10 +115,6 @@ nav {
 	float: top;
 }
 
-body {
-	height: 100%
-}
-
 footer {
 	background-color: #666666;
 	height: 90px;
@@ -134,21 +131,136 @@ footer {
 	padding-top: 40px;	
 }
 
-.my-form {
-	padding: 20px;
+.p-box1 {
+	width: 450px;
+	height: 200px;
+	position: relative;
+	background-image: url("../images/machine-learning.jpg");
+	background-position: center center;
+	margin: 10px 10px 10px 0px;
+	float: left;
 }
 
-.my-form .form-group {
-	padding-bottom: 15px;  
+.p-box1 h4 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #4aaaa5;
+	width: 450px;
+	text-align: center;
+	padding: 15px 0px;
+	position: absolute;
+	top: 135px;
 }
 
-.my-display label {
+.p-box2 {
+	width: 450px;
+	height: 200px;
+	float: right;
+	position: relative;
+	background-image: url("../images/project1.jpg");
+	background-position: center center;
+	margin: 10px 10px 10px 0px;
+}
+
+.p-box2 h4 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #4aaaa5;
+	width: 450px;
+	text-align: center;
+	padding: 15px 0px;
+	position: absolute;
+	top: 135px;
+}
+.p-box3 {
+	width: 450px;
+	height: 200px;
+	float: left;
+	position: relative;
+	background-image: url("../images/project2.jpg");
+	background-position: center center;
+	margin: 10px 10px 10px 0px;
+}
+.p-box3 h4 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #4aaaa5;
+	width: 450px;
+	text-align: center;
+	padding: 15px 0px;
+	position: absolute;
+	top: 135px;
+}
+
+.p-box4 {
+	width: 450px;
+	height: 200px;
+	float: right;
+	position: relative;
+	background-image: url("../images/presentations.jpg");
+	background-position: center center;
+	margin: 10px 10px 10px 0px;
+}
+
+.p-box4 h4 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #4aaaa5;
+	width: 450px;
+	text-align: center;
+	padding: 15px 0px;
+	position: absolute;
+	top: 135px;
+}
+
+.p-box5 {
+	width: 450px;
+	height: 200px;
+	float: left;
+	position: relative;
+	background-image: url("../images/patents.jpg");
+	background-position: center center;
+	margin: 10px 10px 0px 0px;
+}
+
+.p-box5 h4 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #4aaaa5;
+	width: 450px;
+	text-align: center;
+	padding: 15px 0px;
+	position: absolute;
+	top: 135px;
+}
+
+.my-form label {
 	display: block;
+	padding: 15px 0px 10px 0px;
 }
 
-.my-form input {
+.my-form input[type="text"], .my-form input[type="Email"], 
+.my-form textarea {
 	padding: 8px;
-	width: 100%
+	width: 98%;
+}
+
+.my-form textarea {
+	height: 200px;
+}
+
+.my-form input[type="submit"] {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 10px 15px;
+	border: none;
+	margin: 10px 0px 0px 0px;
+
 }
 
 
